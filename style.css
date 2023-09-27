@@ -16,6 +16,12 @@
     body
     {
       background-color: var(--secondary-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      height: 100vh;
+      width: 100%;
     }
     .container
     {
@@ -23,7 +29,6 @@
       width: 22rem;
       height: 30rem;
       border-radius: 6.5%;
-      margin: auto;
       margin-top: 5rem;
     }
    .Qr-code
